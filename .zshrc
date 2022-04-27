@@ -48,6 +48,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Custom aliases
 alias update='sudo apt update && sudo apt upgrade -y'
+alias list=' ~/.cargo/bin/exa -al --color=always --group-directories-first'
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
